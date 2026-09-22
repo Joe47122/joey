@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carter Fusion 260 — Komgbenda Joseph Oryiman</title>
+<meta name="description" content="Conceptual design of the Carter Fusion 260 business jet, a team project modifying the Bombardier Challenger 650 and Gulfstream G280 for ultra-long-range performance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="index.html">Komgbenda J. Oryiman</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="cad-portfolio.html">CAD Portfolio</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">Group leader &middot; AED 507, Aircraft Structural Analysis II &middot; AFIT Kaduna, Nov 2025</div>
+    <h1 style="max-width: 18ch;">Carter Fusion 260 conceptual business jet</h1>
+    <p class="lede">A nine-person team design exercise: take two real mid-size business jets apart on
+      paper, and synthesize a higher-capacity, ultra-long-range aircraft from what each does best.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <h2>The brief</h2>
+      <p>The Carter Fusion 260 is a conceptual modification of the Bombardier Challenger 650 and
+        Gulfstream G280 &mdash; the Challenger contributing cabin volume and range, the G280
+        contributing short-field performance and efficiency. The target: a Mobile Corporate Office
+        capable of carrying 16 passengers and 4 crew intercontinentally, non-stop.</p>
+      <p>The structural philosophy borrows from the Boeing 787: CFRP composite construction in
+        place of the baseline aircrafts&rsquo; predominantly aluminum structure, chosen for
+        strength-to-weight ratio, fatigue life, and the higher cabin pressure differential it
+        allows.</p>
+    </div>
+    <div>
+      <h2>Design targets</h2>
+      <ul class="result-list">
+        <li><span class="k">MTOW</span><span class="v">27,295 kg</span></li>
+        <li><span class="k">Range</span><span class="v">7,860 km (4,244 nm)</span></li>
+        <li><span class="k">Fuel capacity</span><span class="v">9,079 kg</span></li>
+        <li><span class="k">Payload</span><span class="v">16 passengers + 4 crew</span></li>
+        <li><span class="k">Aerodynamic quality (Kcr)</span><span class="v">16</span></li>
+        <li><span class="k">Powerplant</span><span class="v">2 &times; Pratt &amp; Whitney PW814GA/D turbofans</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>CAD model</h2>
+    <p>Full-aircraft assembly modeled in CATIA V5: fuselage, wing, vertical and horizontal
+      stabilizers, engines, and landing gear as separate parts in one product tree.</p>
+    <div class="gallery">
+      <figure class="wide">
+        <img src="assets/carter260-iso.jpg" alt="Carter Fusion 260 CAD model, isometric view" loading="lazy">
+        <figcaption>Full assembly &mdash; isometric</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/carter260-side.jpg" alt="Carter Fusion 260 CAD model, side profile" loading="lazy">
+        <figcaption>Side profile</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/carter260-front.jpg" alt="Carter Fusion 260 CAD model, front view" loading="lazy">
+        <figcaption>Front view</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/carter260-rear.jpg" alt="Carter Fusion 260 CAD model, rear view" loading="lazy">
+        <figcaption>Rear view</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/carter260-top.jpg" alt="Carter Fusion 260 CAD model, top view" loading="lazy">
+        <figcaption>Top view</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <h2>Mass &amp; balance analysis</h2>
+      <p>The aircraft's statistical sizing and mass-balance work &mdash; wing, tail and fuselage
+        geometry, component-by-component mass estimation, and center-of-gravity balancing across
+        four loading cases &mdash; was carried out in Excel, iterating against the mission
+        requirements until the numbers converged on something structurally sound.</p>
+      <p>Component breakdown of the 27,295 kg MTOW:</p>
+      <ul class="result-list">
+        <li><span class="k">Wing</span><span class="v">8,588 kg</span></li>
+        <li><span class="k">Fuel</span><span class="v">9,079 kg</span></li>
+        <li><span class="k">Payload</span><span class="v">3,100 kg</span></li>
+        <li><span class="k">Powerplant</span><span class="v">2,102 kg</span></li>
+        <li><span class="k">Equipment</span><span class="v">2,451 kg</span></li>
+        <li><span class="k">Fuselage</span><span class="v">1,483 kg</span></li>
+        <li><span class="k">Landing gear</span><span class="v">1,056 kg</span></li>
+        <li><span class="k">Control surfaces</span><span class="v">869 kg</span></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Center of gravity</h2>
+      <p>Balancing coefficient calculated across four loading conditions, referenced to the
+        median aerodynamic chord:</p>
+      <ul class="result-list">
+        <li><span class="k">Full aircraft</span><span class="v">0.251</span></li>
+        <li><span class="k">No load</span><span class="v">0.236</span></li>
+        <li><span class="k">No fuel</span><span class="v">0.255</span></li>
+        <li><span class="k">Empty</span><span class="v">0.293</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-bottom: none;">
+  <div class="container">
+    <h2>Team &amp; contribution</h2>
+    <p>This was a nine-person group project for AED 507, submitted to Engr. Joel Ajayi. I led
+      the group, and my technical contribution was the mass estimation and balance analysis
+      above, plus configuration development and preliminary performance and design discussions,
+      working alongside:</p>
+    <div class="chip-row">
+      <span class="chip">Igbonekwu Paul Chijioke</span>
+      <span class="chip">Ranti Grace Oluwatomiwa</span>
+      <span class="chip">Kator Ngorngor</span>
+      <span class="chip">Abbas Idriss Idriss</span>
+      <span class="chip">Ademola Boluwatife Philip</span>
+      <span class="chip">Bamshak Retnyitna'an Samuel</span>
+      <span class="chip">Aliyu Aminu</span>
+      <span class="chip">Izang Joel Dauda</span>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Komgbenda Joseph Oryiman &mdash; Aerospace Engineer, Abuja, Nigeria</p>
+    <div class="footer-links">
+      <a href="mailto:komgbendajoseph6@gmail.com">komgbendajoseph6@gmail.com</a>
+      <a href="https://www.linkedin.com/in/joseph-komgbenda-38bb41287/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Joe47122" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
