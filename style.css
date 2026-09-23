@@ -5,16 +5,16 @@
    ============================================================ */
 
 :root {
-  --bg: #ffffff;
-  --bg-soft: #eaf3ff;
-  --bg-violet: #f2eefd;
-  --surface: #ffffff;
-  --border: #e6e2f5;
-  --border-strong: #d8d2ee;
+  --bg: #f6f4fa;
+  --bg-soft: #e2ecf7;
+  --bg-violet: #ece6f9;
+  --surface: #fdfcff;
+  --border: #ddd8ee;
+  --border-strong: #cfc8e6;
 
-  --ink: #17151f;
-  --ink-muted: #625f70;
-  --ink-faint: #918da0;
+  --ink: #1c1a26;
+  --ink-muted: #5a5768;
+  --ink-faint: #86829a;
 
   --accent: #6d54f6;
   --accent-dark: #5439e8;
@@ -82,7 +82,7 @@ p.lede { font-size: 1.02rem; color: var(--ink-muted); max-width: 58ch; }
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(246, 244, 250, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
