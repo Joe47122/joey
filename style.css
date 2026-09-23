@@ -5,21 +5,21 @@
    ============================================================ */
 
 :root {
-  --bg: #f6f4fa;
-  --bg-soft: #e2ecf7;
-  --bg-violet: #ece6f9;
-  --surface: #fdfcff;
-  --border: #ddd8ee;
-  --border-strong: #cfc8e6;
+  --bg: #e6e6e4;
+  --bg-soft: #dcdcda;
+  --bg-violet: #dfdfdd;
+  --surface: #f6f6f4;
+  --border: #cbcbc8;
+  --border-strong: #b3b3af;
 
-  --ink: #1c1a26;
-  --ink-muted: #5a5768;
-  --ink-faint: #86829a;
+  --ink: #1c1c1e;
+  --ink-muted: #58585c;
+  --ink-faint: #8a8a8d;
 
-  --accent: #6d54f6;
-  --accent-dark: #5439e8;
-  --accent-bg: #efebfe;
-  --accent-text: #5439e8;
+  --accent: #52525b;
+  --accent-dark: #33333a;
+  --accent-bg: #e4e4e2;
+  --accent-text: #33333a;
 
   --ok: #1c9e75;
 
@@ -82,7 +82,7 @@ p.lede { font-size: 1.02rem; color: var(--ink-muted); max-width: 58ch; }
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(246, 244, 250, 0.92);
+  background: rgba(230, 230, 228, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
