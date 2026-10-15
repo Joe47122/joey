@@ -65,7 +65,7 @@
   </div>
 </section>
 
-<section class="section" style="border-bottom: none;">
+<section class="section">
   <div class="container">
     <h2>Eurojet EJ200 turbofan</h2>
     <p>CATIA V5 part and assembly model of the EJ200 military turbofan &mdash; the Eurofighter
@@ -96,6 +96,41 @@
   </div>
 </section>
 
+<section class="section" id="side-quests" style="border-bottom: none;">
+  <div class="container">
+    <div class="kicker">Side quests &middot; Miscellaneous projects in FreeCAD</div>
+    <h2>Bike brace (two-bore split clamp)</h2>
+    <p>A bicycle clamp bracket that holds two tubes at right angles to each other, modelled
+      in FreeCAD from a dimensioned drawing. One end has a 28 mm bore (R14) that grips a tube
+      vertically, and the other has a 23 mm bore (R11.5) set horizontally for a handlebar-sized
+      tube. Each bore is split by a slot and closed with pinch bolts. Parts like this are used
+      to mount accessories, lights or extension bars, or to link frame and handlebar tubes.
+      The envelope is about 103 mm long, 50 mm tall and 44 mm wide, with a pocket through the
+      body to save weight.</p>
+    <p><strong>Parametric rebuild:</strong> the key dimensions live in a FreeCAD spreadsheet
+      with aliases such as bore_large_d, bore_small_d, length, height and width, plus slot
+      width, bolt size and spacing, and wall thickness. A PartDesign body references them in
+      constrained sketches that are padded, pocketed and filleted, with the bolt holes made as
+      hole features. Changing a spreadsheet value rebuilds the whole part, so it adapts easily
+      to other tube diameters.</p>
+    <p><strong>Fabrication:</strong> CNC machined from 6061-T6 aluminium billet, with the slots
+      cut by milling or wire EDM and the bores finished by reaming, then anodised. Socket-head
+      steel bolts do the clamping. A 3D-printed PETG or nylon prototype is useful for checking
+      fit before cutting metal.</p>
+
+    <div class="gallery">
+      <figure class="wide">
+        <img src="assets/bike_brace.jpg" alt="FreeCAD render of the bike brace clamp, isometric view showing both bores and pinch bolts" loading="lazy">
+        <figcaption>Isometric view</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/side_view_1.jpg" alt="FreeCAD render of the bike brace clamp, side view showing the weight-saving pocket" loading="lazy">
+        <figcaption>Side view</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+  
 <footer class="site-footer">
   <div class="container footer-inner">
     <p>Joseph Komgbenda &mdash; Aerospace Engineer, Abuja, Nigeria</p>
