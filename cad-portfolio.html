@@ -96,7 +96,7 @@
   </div>
 </section>
 
-<section class="section" id="side-quests" style="border-bottom: none;">
+<section class="section" id="side-quests">
   <div class="container">
    <h2>Side quests &middot; Miscellaneous projects in FreeCAD<h2>
     <h3>Bike brace (two-bore split clamp)</h3>
@@ -136,7 +136,47 @@
     <p><a href="assets/Bike_brace_1.pdf" target="assets/bike brace 1.pdf" rel="noopener">Open the drawing in a new tab (PDF)</a></p>
   </div>
 </section>
-  
+
+<section class="section" id="bike-pedal" style="border-bottom: none;">
+  <div class="container">
+    <div class="kicker">Side quests &middot; Miscellaneous projects in FreeCAD</div>
+    <h2>Flat bike pedal (bearing-mounted assembly)</h2>
+    <p>A flat-platform bicycle pedal modelled as a full assembly in FreeCAD. The body is a wide
+      platform with three weight-saving pockets and a ring of holes on the top face. A threaded
+      spindle runs through the body on two bearings, held by a bearing seat and a lock nut, and
+      the threaded end screws into the crank arm. Flat pedals like this are used on mountain,
+      BMX and everyday bikes, where the rider needs a large, stable foot platform. The drawing
+      calls for 20 heat-set M4 inserts, set flush with the surface, to hold traction pins or
+      cover plates on the top and bottom faces.</p>
+    <p><strong>Parametric rebuild:</strong> platform length, width and thickness, pocket sizes,
+      the hole pattern, spindle diameter, bearing seat diameters and the insert hole size sit in
+      a FreeCAD spreadsheet as named aliases. The body is a PartDesign part built from
+      constrained sketches, with the pockets and insert holes patterned so that changing one
+      value rebuilds the whole pedal. The spindle, bearings and nut are separate parts brought
+      together in an assembly, and the exploded view and component drawing (A3, scale 1:1,
+      ISO 2768-m) come from the same model.</p>
+    <p><strong>Fabrication:</strong> the drawing specifies stainless steel 1.4301 (304), so the
+      production route is CNC machining from billet, with the bearing seat bored and reamed to
+      size and the spindle turned on a lathe. For a quick fit-check prototype, the body can be
+      3D printed in nylon or PETG, with the inserts pressed in using a soldering iron.</p>
+
+    <div class="gallery">
+      <figure class="wide">
+        <img src="assets/bike_pedal_assembly_1.jpg" alt="Rendered flat bike pedal on a desk, showing the pocketed platform and threaded spindle" loading="lazy">
+        <figcaption>Assembly &mdash; rendered view</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/other_side.jpg" alt="Rendered flat bike pedal from the opposite side, showing the insert holes and spindle" loading="lazy">
+        <figcaption>Assembly &mdash; opposite side</figcaption>
+      </figure>
+      <figure class="wide">
+        <img src="assets/bike_pedal_drawing.png" alt="Exploded component drawing of the bike pedal showing spindle, bearings, nut and 20 heat-set inserts" loading="lazy">
+        <figcaption>Exploded assembly drawing (A3, 1:1)</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+     
 <footer class="site-footer">
   <div class="container footer-inner">
     <p>Joseph Komgbenda &mdash; Aerospace Engineer, Abuja, Nigeria</p>
